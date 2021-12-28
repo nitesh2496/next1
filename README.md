@@ -1,44 +1,11 @@
-# next1
-/usr/bin/bash
 
+Title of the project: 'Peer-graded Assignment: Bash, Make, Git, and GitHub'
+Date make ran at: 
+Tue Dec  28 12:40:48 India 2021
+Title of the project: __Peer-graded Assignment: Bash, Make, Git, and GitHub__
 
+Date make ran at:
+Tue Dec  28 12:40:48 India 2021
 
-scorefile="Guessing_game"
-
-guess=-1
-
-typeset -i num=0
-
-
-
-echo -e "guess.bash - Guess and type a mumber! of \n  how many files are  present in repository \n"
-
-
-
-
-
-(( answer = 3 ))
-
-
-
-
-
-while (( guess != answer )); do
-
-num=num+1
-
-	read -p "Enter guess $num: " guess
-
-	if (( guess < answer )); then
-
-		echo "guess is low, Ur close please try again..."
-
-	elif (( guess > answer )); then
-
-		echo "guess is high ,Ur close please try again"
-
-	fi
-
-done
-
-echo -e "Congrats!! Correct! That took $num guesses.\n"
+Number of lines file guessinggame.sh contains:
+      44
