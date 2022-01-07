@@ -1,6 +1,6 @@
 /usr/bin/bash
 
-
+function Guessingame{
 
 scorefile="Guessing_game"
 
@@ -41,4 +41,4 @@ num=num+1
 done
 
 echo -e "Congrats!! Correct! That took $num guesses.\n"
-
+}
